@@ -58,19 +58,19 @@
     /* Rotate each on hover */
     .main1:hover .one 
     { 
-        transform: rotate(90deg);
+        transform: rotate(180deg);
      }
     .main1:hover .two
      { 
-        transform: rotate(-90deg);
+        transform: rotate(-180deg);
      }
     .main1:hover .three
      { 
-        transform: rotate(-90deg); 
+        transform: rotate(-180deg); 
     }
     .main1:hover .four 
     {
-         transform: rotate(90deg); 
+         transform: rotate(180deg); 
     }
 
     /* Center text */
@@ -78,12 +78,11 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      /* transform: translate(-50%, -50%); */
+  
       font-size: 20px;
       text-align: center;
-      /* font-weight: bold; */
-      opacity: 0;
-      transition: opacity 0.4s ease 0.5s; 
+     
+     z-index: -1;
      
     }
 
